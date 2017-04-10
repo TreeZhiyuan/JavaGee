@@ -34,8 +34,6 @@ public class BrokenSequenceTest extends TestCase {
 	@Test
 	public void test4() {
 		assertEquals("", 1, new BrokenSequence().findMissingNumber("2 1 4 3 a"));
-		assertEquals("", 0,
-				new BrokenSequence()
-						.findMissingNumber("1 2 4 3 5 6 7 8 9 10 11 12 13"));
+		assertEquals("", 0, new BrokenSequence().findMissingNumber("1 2 4 3 5 6 7 8 9 10 11 12 13"));
 	}
 }

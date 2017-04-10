@@ -22,8 +22,7 @@ public class TripleMoney {
 	 * @param desired
 	 * @return
 	 */
-	public static int calculateYears(double principal, double interest,
-			double tax, double desired) {
+	public static int calculateYears(double principal, double interest, double tax, double desired) {
 		int years = 0;
 		while (principal < desired) {
 			// principal = principal + principal*interest*(1-tax);
