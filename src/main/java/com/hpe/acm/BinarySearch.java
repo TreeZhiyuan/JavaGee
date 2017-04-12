@@ -18,13 +18,11 @@ package com.hpe.acm;
  *
  */
 public class BinarySearch {
-	/*
+	/**
 	 * find the index in no-repeat value array
 	 * 
 	 * @param array
-	 * 
 	 * @param target
-	 * 
 	 * @return
 	 */
 	public int findIndex(int[] array, int target) {
@@ -43,14 +41,12 @@ public class BinarySearch {
 		return index;
 	}
 
-	/*
+	/**
 	 * find the lower index in repeated key array { 1, 2, 3, 4, 4, 4, 6, 7, 8}
 	 * will return 3
 	 * 
 	 * @param array
-	 * 
 	 * @param target
-	 * 
 	 * @return
 	 */
 	public int findLowerIndex(int[] array, int target) {
@@ -69,14 +65,12 @@ public class BinarySearch {
 		return index;
 	}
 
-	/*
-	 * find the lower index in repeated key array { 1, 2, 3, 4, 4, 4, 6, 7, 8}
-	 * will return 3
+	/**
+	 * find the higher index in repeated key array { 1, 2, 3, 4, 4, 4, 6, 7, 8}
+	 * will return 5
 	 * 
 	 * @param array
-	 * 
 	 * @param target
-	 * 
 	 * @return
 	 */
 	public int findHigherIndex(int[] array, int target) {
