@@ -9,18 +9,22 @@ import org.junit.Test;
 import com.hpe.acm.leetcode.easy.ValidParentheses;
 
 public class ValidParenthesesTest {
+    ValidParentheses validParentheses = new ValidParentheses();
 
-	@Before
-	public void setUp() throws Exception {
-	}
+    @Before
+    public void setUp() throws Exception {
+    }
 
-	@After
-	public void tearDown() throws Exception {
-	}
+    @After
+    public void tearDown() throws Exception {
+    }
 
-	@Test
-	public void test() {
-		assertEquals("", new ValidParentheses().isValid("{()[]{}{}}("), false);
-	}
-
+    @Test
+    public void test() {
+        assertEquals("", validParentheses.isValid(""), true);
+        assertEquals("", validParentheses.isValid("{)[]{}{}}("), false);
+        assertEquals("", validParentheses.isValid("{()[]{}{}}("), false);
+        assertEquals("", validParentheses.isValid("{()[]{}{}}"), true);
+        assertEquals("", validParentheses.isValid("{()[()]{}}"), true);
+    }
 }
