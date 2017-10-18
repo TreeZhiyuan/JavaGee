@@ -1,12 +1,10 @@
-package com.hpe.acm.leetcode;
+package com.hpe.acm.leetcode.easy;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.fail;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import com.hpe.acm.leetcode.easy.ListNode;
 
 public class ReverseLinkedList2Test {
 

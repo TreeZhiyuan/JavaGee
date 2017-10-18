@@ -13,5 +13,6 @@ public class Array2Map {
         Map<String, Double> kvs = Arrays.asList("a:1.0", "b:2.0", "c:3.0")
             .stream().map(elem -> elem.split(":"))
                 .collect(Collectors.toMap(e -> e[0], e -> Double.parseDouble(e[1])));
+        System.out.print(kvs);
     }
 }
