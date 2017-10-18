@@ -1,4 +1,4 @@
-package com.hpe.acm.leetcode;
+package com.hpe.acm.leetcode.easy;
 
 /**
  * https://leetcode.com/problems/add-two-numbers/#/description

@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/merge-two-sorted-lists/#/description
  */
-package com.hpe.acm.leetcode;
+package com.hpe.acm.leetcode.easy;
 
 /**
  * @author cuizh

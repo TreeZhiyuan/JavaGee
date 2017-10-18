@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/count-and-say/description/
  */
-package com.hpe.acm.leetcode;
+package com.hpe.acm.leetcode.easy;
 
 import java.util.Stack;
 

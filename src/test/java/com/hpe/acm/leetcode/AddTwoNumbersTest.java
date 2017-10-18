@@ -4,6 +4,9 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.hpe.acm.leetcode.easy.AddTwoNumbers;
+import com.hpe.acm.leetcode.easy.ListNode;
+
 public class AddTwoNumbersTest {
 	AddTwoNumbers addTwoNumbers;
 

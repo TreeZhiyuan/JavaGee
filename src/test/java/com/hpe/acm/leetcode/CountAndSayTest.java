@@ -4,6 +4,8 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+import com.hpe.acm.leetcode.easy.CountAndSay;
+
 public class CountAndSayTest {
     CountAndSay countAndSay = new CountAndSay();
 

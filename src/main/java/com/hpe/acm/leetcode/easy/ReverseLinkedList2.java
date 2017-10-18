@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/reverse-linked-list-ii/#/description
  */
-package com.hpe.acm.leetcode;
+package com.hpe.acm.leetcode.easy;
 
 /**
  * 
