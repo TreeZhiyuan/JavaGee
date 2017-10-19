@@ -1,4 +1,4 @@
-package com.hpe.acm;
+package com.hpe.datest;
 
 /**
  * binary search Given an array A of n elements with values or records A0 ...

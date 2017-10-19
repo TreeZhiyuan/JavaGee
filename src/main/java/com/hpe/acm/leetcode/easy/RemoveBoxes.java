@@ -1,13 +1,11 @@
 package com.hpe.acm.leetcode.easy;
 
 /**
- * https://leetcode.com/problems/remove-boxes/#/description
- * 
  * @author cuizh
- *
+ * @description https://leetcode.com/problems/remove-boxes/#/description
  */
 public class RemoveBoxes {
-	public int removeBoxes(int[] boxes) {
-		return 0;
-	}
+    public int removeBoxes(int[] boxes) {
+        return 0;
+    }
 }

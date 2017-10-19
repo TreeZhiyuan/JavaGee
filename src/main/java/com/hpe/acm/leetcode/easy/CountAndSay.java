@@ -1,11 +1,17 @@
-/**
- * https://leetcode.com/problems/count-and-say/description/
- */
 package com.hpe.acm.leetcode.easy;
 
 import java.util.Stack;
 
+/**
+ * @author zhiyuan
+ * @description: https://leetcode.com/problems/count-and-say/description/
+ */
 public class CountAndSay {
+    /**
+     * 
+     * @param preSay
+     * @return
+     */
     public String generateSay(String preSay) {
         StringBuilder sb = new StringBuilder();
         Stack<Character> container = new Stack<Character>();
@@ -30,8 +36,8 @@ public class CountAndSay {
 
     /**
      * 
-     * @param n get the nth count and say result with 
-     * @return
+     * @param n get the nth count and say result
+     * @return result
      */
     public String countAndSay(int n) {
         String say = new String();

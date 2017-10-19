@@ -1,7 +1,7 @@
 package com.hpe.acm.leetcode.easy;
 
 /**
- * https://leetcode.com/problems/3sum/#/description
+ * @description: https://leetcode.com/problems/3sum/#/description
  */
 import java.util.ArrayList;
 import java.util.List;

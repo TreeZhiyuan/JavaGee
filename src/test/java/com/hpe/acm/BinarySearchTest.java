@@ -6,6 +6,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.hpe.datest.BinarySearch;
+
 public class BinarySearchTest {
 
 	@Before
