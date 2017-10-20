@@ -7,6 +7,20 @@ import java.util.Stack;
  * @description: https://leetcode.com/problems/count-and-say/description/
  */
 public class CountAndSay {
+
+    public static void main(String[] args) {
+        //Stack FILO
+        Stack<Character> container = new Stack<Character>();
+        for (char c : "aGshjliVB".toCharArray()) {
+            container.push(c);
+        }
+        System.out.println(container);
+        container.pop();
+        System.out.println(container);
+        container.push('@');
+        System.out.println(container);
+    }
+
     /**
      * 
      * @param preSay
@@ -36,7 +50,8 @@ public class CountAndSay {
 
     /**
      * 
-     * @param n get the nth count and say result
+     * @param n
+     *            get the nth count and say result
      * @return result
      */
     public String countAndSay(int n) {
