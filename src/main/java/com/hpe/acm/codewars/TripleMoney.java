@@ -9,7 +9,8 @@ package com.hpe.acm.codewars;
 public class TripleMoney {
 
 	public static void main(String[] args) {
-		TripleMoney.calculateYears(1000, 0.05, 0.18, 1100);
+		int years = TripleMoney.calculateYears(1000, 0.05, 0.18, 1100);
+		System.out.println(years);
 	}
 
 	/**
