@@ -17,8 +17,11 @@ public class RemoveElement {
 
     /**
      * move the found value to end of inputed numbers array
-     * @param nums inputed array of numbers
-     * @param val target number value
+     * 
+     * @param nums
+     *            inputed array of numbers
+     * @param val
+     *            target number value
      * @return
      */
     public int removeElement(int[] nums, int val) {
