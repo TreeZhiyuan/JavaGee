@@ -1,5 +1,8 @@
 package com.hpe.datest;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 /**
  * binary search Given an array A of n elements with values or records A0 ...
  * An−1, sorted such that A0 ≤ ... ≤ An−1, and target value T, the following
@@ -18,6 +21,13 @@ package com.hpe.datest;
  *
  */
 public class BinarySearch {
+    public static void main(String[] args) {
+        SimpleDateFormat sdf =new SimpleDateFormat("yyyyMMdd");
+        System.out.print(sdf.format(new Date()));
+
+        System.out.print(Integer.valueOf(3).intValue()+1);
+        System.out.print(Integer.valueOf(3)+1);
+    }
 	/**
 	 * find the index in no-repeat value array
 	 * 
