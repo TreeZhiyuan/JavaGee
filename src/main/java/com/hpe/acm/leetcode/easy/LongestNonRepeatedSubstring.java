@@ -44,24 +44,18 @@ public class LongestNonRepeatedSubstring {
         subStrQueue2 = subStrQueue2.subList(subStrQueue2.indexOf('B') + 1, subStrQueue2.size());
         subStrQueue2.add('B');
         System.out.println(subStrQueue2);
-
-        if (false) {
-            System.out.println("true");
-        }
-        {
-            System.out.println("false");
-        }
     }
 
     /**
      * this is my solution which failed to pass leetcode
      *
-     * @param s input parameter
+     * @param s
+     *            input parameter
      * @return length of longest substring
      */
     public int lengthOfLongestSubstringFailed(String s) {
         int size = 0;
-        List<Character> subStrQueue = new LinkedList<>();
+        List<Character> subStrQueue = new LinkedList<Character>();
         for (char a : s.toCharArray()) {
             if (subStrQueue.contains(a)) {
                 subStrQueue = subStrQueue.subList(subStrQueue.indexOf(a) + 1, subStrQueue.size());
@@ -81,7 +75,7 @@ public class LongestNonRepeatedSubstring {
      */
     public int lengthOfLongestSubstringWithSet(String s) {
         int n = s.length();
-        Set<Character> set = new HashSet<>();
+        Set<Character> set = new HashSet<Character>();
         int ans = 0, i = 0, j = 0;
         while (i < n && j < n) {
             // try to extend the range [i, j]
@@ -97,7 +91,7 @@ public class LongestNonRepeatedSubstring {
 
     public int lengthOfLongestSubstring(String s) {
         int n = s.length(), ans = 0;
-        Map<Character, Integer> map = new HashMap<>(); // current index of character
+		Map<Character, Integer> map = new HashMap<Character, Integer>(); // current index of character
         // try to extend the range [i, j]
         for (int j = 0, i = 0; j < n; j++) {
             if (map.containsKey(s.charAt(j))) {

@@ -1,6 +1,6 @@
 .project
 online-acm.iml
-acm.iml
+javagee.iml
 .gitignore
 /target/
 .classpath
