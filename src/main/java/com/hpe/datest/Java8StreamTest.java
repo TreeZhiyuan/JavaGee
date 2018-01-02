@@ -130,6 +130,21 @@ public class Java8StreamTest {
 	}
 
 	@Test
+	public void List2Array() {
+		List<String> emails = new ArrayList<String>() {
+			private static final long serialVersionUID = 1L;
+			{
+				add("767@ema.com");
+				add("7607@ema.com");
+				add("7617@ema.com");
+				add("7627@ema.com");
+				add("7637@ema.com");
+			}
+		};
+		// emails.stream()
+	}
+
+	@Test
 	public void Array2Map() {
 		Map<String, Double> kvs = Arrays.asList("a:1.0", "b:2.0", "c:3.0").stream().map(elem -> elem.split(":"))
 				.collect(Collectors.toMap(e -> e[0], e -> Double.parseDouble(e[1])));
